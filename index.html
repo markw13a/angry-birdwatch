@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="program.js"></script>
+	</head>
+	<body>
+		<div>
+			<h1>Prevent Bill from filming you and your family!</h1>
+			<label for="angle">Angle</label>
+			<input type="range" min="0" max="90" id="angle" name="angle">
+			<label for="force">Force</label>
+			<input type="range" min="0.5" max="1" step="0.01" id="force" name="force">
+			<button type="button">Let slip the birds of war</button>
+		</div>
+		<div id="catapult-range">
+			<div id="winner">
+				<img src="winner.webp">
+			</div>
+			<div id="loser">
+				<h1>You lose</h1>
+				<p>The most intimate details of your life are now the subject of a BBC documentary</p>
+			</div>
+			<img src="ostrich.jpg" id="bird">
+			<img src="oddie.jpg" id="oddie">
+		</div>
+	</body>
+</html>
